@@ -1,0 +1,46 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+aws-scope
+scanner
+
+*.csv
+*.html
+scan.csv
+aws-scope*
+build/
+
+
+# Test output
+*.test
+
+# Output logs and scan data
+*.log
+*.csv
+
+# Vendor dependencies (if not using Go Modules)
+vendor/
+
+# Build directories
+build/
+dist/
+
+# IDE/editor config
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and auth files
+.env
+*.pem
+*.key
+*.crt
+
