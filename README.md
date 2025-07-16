@@ -1,4 +1,4 @@
-# AWS Org Public Scanner
+# AWS Org Public IP Scanner
 
 `aws-org-scanner` is a command-line tool that discovers publicly accessible resources across AWS accounts, regions, and services. It supports both individual account scanning and AWS Organizations. The tool is fast, concurrent, and provides CSV output for further analysis.
 
@@ -113,7 +113,7 @@ Output is a CSV file with the following columns:
 | 123456789012 | dev-account | us-east-1 | EC2 | i-0abc123def456 | - | 3.91.203.15 | - | 3.91.203.15 | - |
 | 123456789012 | dev-account | global | CloudFront | ABCD1234 | d1234.cloudfront.net | - | - | d1234.cloudfront.net | https://d1234.cloudfront.net |
 
-The `Scan Target` field is either an IP or hostname and can be used for vulnerability scans or traffic monitoring.
+The `Scan Target` field is either an IP or hostname and can be used for vulnerability scans.
 
 ## Disclaimer
 
