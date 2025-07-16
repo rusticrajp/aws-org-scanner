@@ -2,6 +2,8 @@
 
 `aws-org-scanner` is a command-line tool that discovers publicly accessible resources across AWS accounts, regions, and services. It supports both individual account scanning and AWS Organizations. The tool is fast, concurrent, and provides CSV output for further analysis.
 
+Check out additional details at https://rusticrajp.github.io/blog/awsorgscan/
+
 ## Overview
 
 The scanner inspects AWS services to identify public-facing resources such as:
