@@ -8,7 +8,6 @@ aws-scope
 
 *.csv
 *.html
-scan.csv
 aws-scope*
 build/
 
